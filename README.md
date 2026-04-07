@@ -1,4 +1,4 @@
-# @jy/awesome-ui
+# jy-awesome-ui
 
 Apple-style React component library with dark mode support, built on Radix UI primitives and styled-components.
 
@@ -14,7 +14,7 @@ Apple-style React component library with dark mode support, built on Radix UI pr
 ## Installation
 
 ```bash
-npm install @jy/awesome-ui
+npm install jy-awesome-ui
 ```
 
 ### Peer Dependencies
@@ -26,8 +26,8 @@ npm install react react-dom styled-components lucide-react
 ## Usage
 
 ```tsx
-import { Button, Input, Card } from '@jy/awesome-ui';
-import '@jy/awesome-ui/styles.css'; // CSS custom properties for theming
+import { Button, Input, Card } from 'jy-awesome-ui';
+import 'jy-awesome-ui/styles.css'; // CSS custom properties for theming
 
 function App() {
   return (
@@ -60,7 +60,7 @@ AlertDialog, Alert, ContextMenu, Dialog, Drawer, DropdownMenu, HoverCard, Loadin
 Import the CSS file to apply theme variables:
 
 ```tsx
-import '@jy/awesome-ui/styles.css';
+import 'jy-awesome-ui/styles.css';
 ```
 
 This provides CSS custom properties for `:root` and `.dark` that control colors, spacing, and more.
