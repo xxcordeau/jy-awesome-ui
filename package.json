@@ -89,5 +89,9 @@
     "accessible",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxcordeau/jy-awesome-ui"
+  },
   "license": "MIT"
 }
